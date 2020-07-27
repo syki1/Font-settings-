@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Typo | Test-drive your text</title>
+	
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+
+
+  <div class = "header">
+  <h1> Font settings </h1>
+
+  </div>
+
+  <div class = "container">
+
+    <form method="POST">
+      <div class = "properties">
+      Font Family: <select name="font" id="font">
+          <option value="times" id="times">Times</option>
+          <option value="arial" id="arial">Arial</option>
+          <option value="impact" id="impact">Impact</option>
+          <option value="courier" id="courier">Courier</option>
+          <option value="verdana" id="verdana">Verdana</option>
+        </select>
+        <br>
+       Font Size:     <input type="text" placeholder="12" id="size"><br>
+       Font Weight:  <select name="weight" id="weight">
+         <option value="normal">Normal</option>
+         <option value="bold">Bold</option>
+         <option value="bolder">Bolder</option>
+         <option value="lighter">lighter</option>
+       </select>
+       <br>
+       Text decoration:  <select name="decoration" id="decoration">
+       <option value="none">None</option>
+         <option value="overline">Overline</option>
+         <option value="line-through">Line-Through</option>
+         <option value="underline">Underline</option>
+         <option value="underline overline">Underline Overline</option>
+       </select>
+       <br>
+        Color:  <select name="color" id="color">
+         <option value="black">Black</option>
+         <option value="red">Red</option>
+         <option value="green">Green</option>
+         <option value="blue">Blue</option>
+       </select>
+
+
+       </div>
+      <textarea name="text" placeholder="Type something" id="text"></textarea>
+    </form>
+
+
+
+      <div class="preview">Sample Font</div>
+  
+      <p class="wordcount"><span class='characters'>0</span> characters counter</p>
+
+  </div>
+
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="script.js"></script>
+</html>

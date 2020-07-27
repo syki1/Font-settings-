@@ -1,0 +1,101 @@
+body 
+{
+  margin: 0;
+  padding: 0;
+  background-color: #222222;
+}
+
+
+.header
+{
+  background-color: #232323;
+  color: #DADADA;
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 800px;
+  height: 100px;
+  display: flex;
+}
+
+.container
+{
+  background-color: #CBCBCB;
+  margin: 0 auto;
+  padding: 0;
+  width: 700px;
+  height: 520px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+h1
+{
+  font-size: 44px;
+  margin: auto auto;
+  text-align: center;
+}
+
+textarea
+{
+  width: 75%;
+  height: 100px;
+  padding: 10px;
+  border: 0;
+  resize: none;
+  margin-top: 40px;
+  display: inline-block;
+}
+
+.preview
+{
+  margin-top: 30px;
+  width: 75%;
+  height: 100px;
+  background-color: white;
+  display: inline-block;
+  text-align: left;
+  padding: 10px;
+  word-wrap: break-word;
+}
+
+.properties
+{
+  padding: 30px;
+  padding-bottom: 0px;
+  margin-left: 50px;
+  text-align: left;
+}
+
+#font, #weight
+{
+  margin-left: 20px;
+  width: 100px;
+  padding: 2px;
+  margin-bottom: 2px;
+}
+
+#size
+{
+  margin-left: 38px;
+  width: 100px;
+  padding: 2px;
+  margin-bottom: 2px;
+  box-sizing: border-box;
+}
+
+#decoration
+{
+  width: 100px;
+  padding: 2px;
+  margin-bottom: 2px;
+}
+
+#color
+{
+  margin-left: 63px;
+  width: 100px;
+  padding: 2px;
+  margin-bottom: 2px;
+}
+
+
